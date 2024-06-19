@@ -1,30 +1,124 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My iOS App Support</title>
+  <title>Trivia Quest: Brain Challenge Support</title>
   <style>
     body {
       font-family: sans-serif;
-    }
-    h1, h2 {
+      line-height: 1.6;
       text-align: center;
     }
+
     .container {
       max-width: 800px;
       margin: 0 auto;
       padding: 20px;
     }
+
+    .nav-button {
+      display: inline-block;
+      margin: 0 10px; 
+      padding: 10px 20px;
+      background-color: #4CAF50; 
+      color: white;
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .nav-button:hover {
+      background-color: #45a049; 
+    }
+
+    .button-container {
+      margin-top: 30px; 
+      text-align: center; 
+    }
+
+    /* Style for FAQ section */
+    .faq-section {
+      margin-top: 20px;
+      text-align: left; 
+    }
+
+    .faq-question {
+      margin-bottom: 20px;
+    }
+
+    .faq-question strong {
+      display: block;
+      margin-bottom: 5px;
+      text-align: left; 
+      color: #007BFF;
+    }
+
+    /* Styles for titles and subtitles */
+    h1 { 
+      color: #007BFF; 
+    }
+
+    h2 {
+      color: #28A745; 
+    }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Welcome to My iOS App Support</h1>
-    <h2>Frequently Asked Questions</h2>
-    <p><strong>Q: How do I do [common app task]?</strong></p>
-    <p>A: [Explanation]</p>
 
-    <h2>Contact Us</h2>
-    <p>If you can't find the answer you're looking for, please contact us at <a href="mailto:support@yourapp.com">support@yourapp.com</a>.</p>
+<div class="container">
+  <h1>Trivia Quest Support</h1>
+
+  <div id="app-description">
+    <p>
+      Welcome to Trivia Quest, the ultimate trivia game that will put your knowledge to the test! 
+      Challenge yourself with thousands of questions across various categories and climb 
+      the leaderboards to become the Trivia Master.
+    </p>
   </div>
+
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-section">
+    
+    <div class="faq-question">
+      <strong>Q: How many categories of trivia are there?</strong>
+      <div class="faq-answer">
+        A: We offer a wide range of categories, including history, science, sports, entertainment, geography, and more! New categories are added regularly.
+      </div>
+    </div>
+
+    <div class="faq-question">
+      <strong>Q: Are there different difficulty levels?</strong>
+      <div class="faq-answer">
+        A: Yes! We have questions for everyone, from trivia novices to seasoned experts. Choose from Easy, Medium, or Hard mode. 
+      </div>
+    </div>
+
+    <div class="faq-question">
+      <strong>Q: How are points calculated?</strong>
+      <div class="faq-answer">
+        A: Points are awarded based on the speed and accuracy of your answers. The faster you answer correctly, the more points you earn!
+      </div>
+    </div>
+
+    <div class="faq-question">
+      <strong>Q: How do I contact support?</strong>
+      <div class="faq-answer">
+        A: You can reach our support team by clicking here: 
+        <a href="mailto:adamjhon4444@gmail.com" class="nav-button">Email Us</a>
+      </div>
+    </div>
+  </div> 
+
+  <div class="button-container">
+    <a href="https://pastebin.com/raw/fC1KQ8hy" class="nav-button">About Us</a>
+    <a href="https://pastebin.com/raw/SN7tXN8R" class="nav-button">Terms of Use</a>
+    <a href="https://pastebin.com/raw/bgcw2UcL" class="nav-button" target="_blank">Privacy Policy</a>
+    <a href="#" class="nav-button" onclick="alert('We appreciate your feedback! Please let us know your thoughts by Reach Us at [Email us Button].')">Feedback</a> 
+  </div>
+
+</div> 
+
 </body>
 </html>
